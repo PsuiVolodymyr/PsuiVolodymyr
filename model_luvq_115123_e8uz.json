@@ -1,0 +1,42 @@
+8 + orange
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+91,96,49,47,5,97 / 76,55,29,28,60,96,55,32,72,98,75,17,86,14,16,64,10,82,17,94,50,8,88,18,40,51,56,6,41,98,16,96,1,38,56,42,71,62,89,56,89,47,60,54,55,49,88,8,38
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+43,45,24,80,75,17,18,89,14,7,20,28,80,45,12,37,81,52,37,68,51,71,77,43,93,81,0,8,82,73,79,83,23,58,77,10,7,53,86,17,49,57,8,76,35,10,81,62 - orange
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+56,86,57,34,19,87,91,84,62,54,87,79,66,74,66,57,33,61,91,92,5,59,3,83,36,81,54,1,90,40,64,58,17,19,87,21,92,64,3,74,61,11,94,94,37,98,62,28,57,55,59,27,84,1,58,96,31,28,57,12,98,4,57,2,33,67,8,59,46,74,80,26,90,50,45,6,3,20,41,86,17,21,57,16,64,23,84 / 55
+function addNumbers(a, b) { return a + b; }
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+grape
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const capitalizeString = str => str.toUpperCase();
+true + 32
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const removeDuplicates = array => Array.from(new Set(array));
+apple / 17,52,30,30,35,88,41,81,40,20,97,44,74,22,36,54,4,92,47,22,35,28,89,35,16,29,95,35,76,22,21,57,23,28,34,0,55,78,99,61,11,16,22,29,62,89,39,74,11,90,75,90,41,68,14,57,73,6,33,41,12,3,31,91,9,34,77,15,48,63,29,23
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+51,65,55,61,38,83 / false
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+apple
+
+// This is a comment
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const findLargestNumber = numbers => Math.max(...numbers);
+const findLargestNumber = numbers => Math.max(...numbers);
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+7 - grape
+const multiply = (a, b) => a * b;
+const isPalindrome = str => str === str.split("").reverse().join("");
