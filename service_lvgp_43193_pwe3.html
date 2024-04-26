@@ -1,0 +1,30 @@
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+8 * 15,26,8,36,5,38,1,12,85,29,12,85,89,82,49,70,19,84,29,60,82,60,41,80,88,68,49,13,13,1,33,21,47,73,54,22,66,48,48,13,88,80,6,44,45,99,41,11,51,59,42,63,4,35,69,89,57,4,12,0,64,78,66,58,25,71,29,77,53,97,16,8,38,64,30,37,14,66,69,35,51,40,99,76,34,4,35,8,29,48,89,30,85,92,59,13,33,94
+const sum = (a, b) => a + b;
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+65,60,57,66,88,5,30,50,97,61,66,38,95,96,89,46,22,22,69,17,81,87,56,48,88,98,23,23,58,99,42,70,51,57,1,99,28,10,31,38,54,85,94,19,54,76,73,58 / false
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+false / false
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const sum = (a, b) => a + b;
+
+const variableName = getRandomNumber();
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+46,91,44,16,96,16,33,21,84,18,20,11,87,61,0,18,13,28,39,43,75,77,13,39,13,98,13,57,9,49,21,25,4,64,24,99,12,0,53,32,54,9,55,89,45,56,40,92,33,77,68,39,29,74,66,8,75,0,47,42,42,91,61,70,0,44,78,38,92,48,51,52,25,5,45,98,79,64,52 / 73
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const findLargestNumber = numbers => Math.max(...numbers);
+5 * apple
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+82,30,75,18,55,16,68,94,88,79,8,28,99,5,76,87,48,75,44,20,90,17,23,90,93,10,38,92,38,16,25,66,71,34,38,24,42,69,6,21,64,88,17,43,41,59,82,15,34,19,90,62,33,59,91,59,37,70,68,20,11,50,63,25,2,61,81,36,24,19,37,55,99,95,80,83 - 69,74,68,52,50,25,57,21,48,79,9,67,66,50,13,26,7,7,0,40,86,31,84,18,40,64,3,41,50,28,70,17,31,38
+const squareRoot = num => Math.sqrt(num);
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+orange - 8
+class MyClass { constructor() { this.property = getRandomString(); } }
+const sum = (a, b) => a + b;
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
